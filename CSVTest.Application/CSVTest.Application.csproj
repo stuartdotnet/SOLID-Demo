@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSVTest.Contracts\CSVTest.Contracts.csproj" />
+    <ProjectReference Include="..\CSVTest.CrossCutting\CSVTest.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
