@@ -9,16 +9,16 @@ namespace CSVTest
 		{
 			try
 			{
-				//if (args.Length < 1)
-				//{
-				//	Console.WriteLine("Please enter a filename argument");
-				//	return;
-				//}
+				if (args.Length < 1)
+				{
+					Console.WriteLine("Please enter a filename argument");
+					return;
+				}
 
-				//string file = args[0];
+				string file = args[0];
 
 				// Testing //
-				 string file = "LP_210095893_20150901T011608049.csv";
+				// string file = "LP_210095893_20150901T011608049.csv";
 				// string file = "TOU_212621145_20150911T022358.csv";
 
 
